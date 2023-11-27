@@ -23,8 +23,7 @@ app.use("/answer", answerRoutes);
 
 const PORT = process.env.PORT;
 
-const DATABASE_URL =
-  "mongodb+srv://admin:admin@stack-overflow-clone.5xudibm.mongodb.net/?retryWrites=true&w=majority";
+const DATABASE_URL = "mongodb+srv://fathima1shaik:Tazeemrafi12@cluster0.g8gadpj.mongodb.net/?retryWrites=true&w=majority";
 
 mongoose
   .connect(DATABASE_URL, {
